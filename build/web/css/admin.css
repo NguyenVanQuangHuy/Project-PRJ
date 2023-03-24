@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+.col-md-3 img{
+    width: 30%;
+   }
+   .col-md-7 {
+       text-align: center;
+   
+   }
+   .col-md-7 h1{
+       font-size: 300%;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   .headerrow{
+       text-align: center;
+       align-items: center;
+       box-shadow: 0px 0px 10px 0px black;
+       z-index: 1;
+   }
+    .headerrow .col-md-2 .bi-person-circle {
+        font-size: 220%;
+        margin: 30px;
+        color: #01D28E;
+        position: relative;
+    }
+   .list-group-numbered {
+
+    position: absolute;
+    right: 1%;
+    width: 15%;
+    display: none;
+   }
+
+   .list-group-numbered a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+   }
+   .col-md-2:hover .list-group-numbered{
+    display:block;
+   }
+   
+   .catelist:hover{
+       background-color: #01D28E;
+       color:#fff;
+   }
+   
+   .catelist,
+   .lis{
+       border: solid 2px #01D28E;
+   }
+   .co{
+       margin-top: 20px;
+   }
+   .headerrow .col-md-2 .bi-person-circle {
+        font-size: 220%;
+        margin: 30px;
+        color: #01D28E;
+        position: relative;
+    }
+   .list-group-numbered {
+
+    position: absolute;
+    right: 1%;
+    width: 15%;
+    display: none;
+   }
+
+   .list-group-numbered a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+   }
+   .col-md-2:hover .list-group-numbered{
+    display:block;
+   }
+   .list-group-numbered li:hover a{
+    background-color: #01D28E;
+    color: #fff;
+   }
+
+.category{
+    margin-top: 5%;
+    height: fit-content;
+   
+}
+.category .nav-item{
+    border: 1px solid #01D28E;
+    margin: 2px 2px;
+    background-color: #01D28E;
+    
+}
+.category .nav-item a{
+    color: #fff;
+}
+.category .nav-item:hover a {
+    background-color: #fff;
+    color: #01D28E;
+}
+.category .catead {
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+
+}
+.content{
+    margin-top: 5%;
+}
